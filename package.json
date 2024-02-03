@@ -1,0 +1,33 @@
+{
+  "name": "mocha-chai-sinon-nock-nodejs-test",
+  "version": "1.0.0",
+  "description": "Node.js testing learning from youtube",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varunkh16/mocha-chai-sinon-nock-nodejs-test.git"
+  },
+  "keywords": [
+    "Node.js",
+    "testcase\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dunit",
+    "\u001b[C\u001b[",
+    "testing"
+  ],
+  "author": "varun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varunkh16/mocha-chai-sinon-nock-nodejs-test/issues"
+  },
+  "homepage": "https://github.com/varunkh16/mocha-chai-sinon-nock-nodejs-test#readme",
+  "devDependencies": {
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "chai": "^5.0.3",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
