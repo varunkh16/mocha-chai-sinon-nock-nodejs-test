@@ -5,7 +5,7 @@
   "description": "Node.js testing learning from youtube",
   "main": "index.ts",
   "scripts": {
-    "test": "mocha --require ts-node/register test/**.spec.ts"
+    "test": "nyc mocha --require ts-node/register test/**.spec.ts"
   },
   "repository": {
     "type": "git",
@@ -30,5 +30,8 @@
     "mocha": "^10.2.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "nyc": "^15.1.0"
   }
 }
