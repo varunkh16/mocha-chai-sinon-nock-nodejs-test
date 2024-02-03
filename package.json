@@ -1,10 +1,11 @@
 {
   "name": "mocha-chai-sinon-nock-nodejs-test",
   "version": "1.0.0",
+  "type": "module",
   "description": "Node.js testing learning from youtube",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require ts-node/register test/**.spec.ts"
   },
   "repository": {
     "type": "git",
