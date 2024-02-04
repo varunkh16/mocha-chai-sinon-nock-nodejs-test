@@ -11,12 +11,6 @@
     "type": "git",
     "url": "git+https://github.com/varunkh16/mocha-chai-sinon-nock-nodejs-test.git"
   },
-  "keywords": [
-    "Node.js",
-    "testcase\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dunit",
-    "\u001b[C\u001b[",
-    "testing"
-  ],
   "author": "varun",
   "license": "ISC",
   "bugs": {
