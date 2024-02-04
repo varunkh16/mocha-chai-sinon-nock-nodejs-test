@@ -5,7 +5,7 @@
   "description": "Node.js testing learning from youtube",
   "main": "index.ts",
   "scripts": {
-    "test": "nyc mocha --timeout 30000 --require ts-node/register test/**.spec.ts"
+    "test": "mocha --timeout 30000 --require ts-node/register test/**.spec.ts"
   },
   "repository": {
     "type": "git",
@@ -20,14 +20,18 @@
   "devDependencies": {
     "@types/chai": "^4.3.11",
     "@types/mocha": "^10.0.6",
+    "@types/nock": "^11.1.0",
     "@types/sinon": "^17.0.3",
     "chai": "^5.0.3",
     "mocha": "^10.2.0",
+    "nock": "^13.5.1",
     "sinon": "^17.0.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^1.6.7",
     "nyc": "^15.1.0"
   }
 }
